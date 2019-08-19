@@ -15,7 +15,7 @@ def swap_elements(array)
     array
 end
 
-def kesha_maker
+def kesha_maker(array)
   i = 0
 
   while i < array.length
