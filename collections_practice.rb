@@ -36,5 +36,5 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array[0] += "s"
+  array[0, 2, 3] += "s"
 end
