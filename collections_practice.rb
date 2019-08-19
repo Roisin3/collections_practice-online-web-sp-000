@@ -27,6 +27,6 @@ end
 
 def find_a(array)
   array.select do |str|
-    str = "a"
+    str[0] = "a"
   end
 end
