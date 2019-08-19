@@ -14,3 +14,15 @@ def swap_elements(array)
     array[1], array[2] = array[2], array[1]
     array
 end
+
+def kesha_maker
+  i = 0
+
+while i < array.length
+  yield(array[i])
+  i += 1
+end
+array[2] = "$"
+array
+  
+end
