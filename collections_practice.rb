@@ -24,5 +24,5 @@ while i < array.length
 end
 array[2] = "$"
 array
-  
+
 end
