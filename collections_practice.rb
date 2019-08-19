@@ -35,7 +35,7 @@ def sum_array(array)
   array.inject(:+)
 end
 
-def add_s(array, index)
+def add_s(index)
   if index != 1
     array.each_with_index.collect do |word, index|
     array[index] = word + "s"
