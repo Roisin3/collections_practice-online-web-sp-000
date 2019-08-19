@@ -37,3 +37,4 @@ end
 
 def add_s(index)
   [1, 2].each_with_index.collect {|num, index|}
+end
